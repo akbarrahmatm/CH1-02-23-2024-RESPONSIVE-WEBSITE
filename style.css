@@ -1,19 +1,19 @@
-h1 {
+/* h1 {
   font-size: 30px;
   color: yellow;
-}
+} */
 
 /* CSS untuk screen dibawah atau sama dengan 600px */
 @media (max-width: 600px) {
-  h1 {
+  /* h1 {
     font-size: 10px;
     color: blue;
-  }
+  } */
 }
 
 /* Media query Dua kondisi */
 @media (orientation: landscape) and (max-width: 800px) {
-  h1 {
+  /* h1 {
     color: red;
-  }
+  } */
 }
