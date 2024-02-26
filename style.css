@@ -20,11 +20,19 @@
   }
 }
 
+h1 {
+  font-weight: 900;
+}
+
 /* Media query Dua kondisi */
 @media (orientation: landscape) and (max-width: 800px) {
   /* h1 {
     color: red;
   } */
+}
+
+body {
+  font-family: "Merriweather", serif;
 }
 
 .left-section {
