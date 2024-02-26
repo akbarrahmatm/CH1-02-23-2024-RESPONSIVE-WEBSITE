@@ -9,6 +9,15 @@
     font-size: 10px;
     color: blue;
   } */
+  .card {
+    width: 100%;
+    display: block;
+    text-align: justify;
+  }
+  .card img {
+    width: 100px;
+    /* object-fit: cover; */
+  }
 }
 
 /* Media query Dua kondisi */
@@ -16,4 +25,20 @@
   /* h1 {
     color: red;
   } */
+}
+
+.left-section {
+  float: left;
+}
+
+.card img {
+  object-fit: fill;
+}
+
+.right-section {
+  float: right;
+}
+
+.right-section img {
+  object-fit: cover;
 }
